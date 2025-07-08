@@ -1,9 +1,8 @@
 import pyautogui
 import pandas
-import openpyxl
 import time 
 
-pyautogui.PAUSE = 1.5 
+pyautogui.PAUSE = 2.0       
 
 #entrando dentro do site    
 pyautogui.click(x=557, y=742)
